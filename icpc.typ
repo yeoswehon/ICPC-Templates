@@ -50,6 +50,7 @@
 // --------------- Code imports -----------------
 #let template = read("content/template.cpp")
 #let dsu = read("content/dsu.cpp")
+#let dinic = read("content/dinic.cpp")
 
 // --------------- Code imports -----------------
 
@@ -64,6 +65,10 @@
   #cb(dsu)
 ])
 
+= Dinic
+#concept-block(body: [
+  #cb(dinic)
+])
 
 
 // = References
