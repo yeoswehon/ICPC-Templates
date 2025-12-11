@@ -23,3 +23,10 @@ int main() {
   while (tc--) { solve(); }
   return 0;
 }
+/* Compile Stuff on Vs Code
+
+function c { g++ -std=c++17 -O2 -Wall -Wextra main.cpp -o main }
+gpp main.cpp -o main
+.\main.exe
+function r { .\main.exe } // optional
+*/
