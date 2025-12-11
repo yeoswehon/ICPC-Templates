@@ -25,8 +25,9 @@ int main() {
 }
 /* Compile Stuff on Vs Code
 
-function c { g++ -std=c++17 -O2 -Wall -Wextra main.cpp -o main }
+function gpp { g++ -std=c++17 -O2 -Wall -Wextra @args}
 gpp main.cpp -o main
 .\main.exe
 function r { .\main.exe } // optional
+
 */
